@@ -1,0 +1,5 @@
+Air Canada,AC102,YVR,YVZ
+Air Canada,AC104,YVR,YVZ
+Air Canada,AC107,YVZ,YVR
+Air Canada,AC113,YVR,NRT
+Air India,AI011,YVR,NRT
