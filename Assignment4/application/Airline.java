@@ -10,6 +10,7 @@ public class Airline {
 	
 	private String arrivalAirport;
 
+	// Constructor
 	public Airline(String airlineName, String airlineNumber, String departureAirport, 
 			String arrivalAirport) {
 		
@@ -20,6 +21,7 @@ public class Airline {
 		
 	}
 	
+	// Getter methods
 	public String getAirlineName() {
 		return this.airlineName;
 	}

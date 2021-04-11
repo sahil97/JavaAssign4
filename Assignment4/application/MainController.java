@@ -68,6 +68,7 @@ public class MainController{
     @FXML
     private ListView<String> flightsListView;
     
+    // Arraylist to hold the airlines fetched from file
     private static ArrayList<Airline> airlines = new ArrayList<Airline>();
 
     @FXML
@@ -110,6 +111,7 @@ public class MainController{
     @FXML
     public void viewCategoryAction(ActionEvent action)
     {
+    	// Getting id of selected radio button
     	RadioButton selectedRadioButton = (RadioButton) viewCategory.getSelectedToggle();
     	String selectionId = selectedRadioButton.getId();
     	
